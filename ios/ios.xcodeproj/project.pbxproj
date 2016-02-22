@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE68B1C7ABD4F005B4CC7 /* main.m */; };
 		047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */; };
-		047AE6921C7ABD4F005B4CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6911C7ABD4F005B4CC7 /* ViewController.m */; };
 		047AE6951C7ABD4F005B4CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AE6931C7ABD4F005B4CC7 /* Main.storyboard */; };
 		047AE6971C7ABD4F005B4CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AE6961C7ABD4F005B4CC7 /* Assets.xcassets */; };
 		047AE69A1C7ABD4F005B4CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AE6981C7ABD4F005B4CC7 /* LaunchScreen.storyboard */; };
 		047AE6A51C7ABD4F005B4CC7 /* iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6A41C7ABD4F005B4CC7 /* iosTests.m */; };
 		047AE6B01C7ABD4F005B4CC7 /* iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6AF1C7ABD4F005B4CC7 /* iosUITests.m */; };
+		047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6BE1C7AC695005B4CC7 /* FristViewController.m */; };
+		047AE6CA1C7ADB71005B4CC7 /* mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6C91C7ADB71005B4CC7 /* mybutton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		047AE68B1C7ABD4F005B4CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047AE68D1C7ABD4F005B4CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		047AE6901C7ABD4F005B4CC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		047AE6911C7ABD4F005B4CC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		047AE6941C7ABD4F005B4CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047AE6961C7ABD4F005B4CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047AE6991C7ABD4F005B4CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		047AE6AB1C7ABD4F005B4CC7 /* iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AE6AF1C7ABD4F005B4CC7 /* iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosUITests.m; sourceTree = "<group>"; };
 		047AE6B11C7ABD4F005B4CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AE6BD1C7AC695005B4CC7 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		047AE6BE1C7AC695005B4CC7 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
+		047AE6C81C7ADB71005B4CC7 /* mybutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mybutton.h; sourceTree = "<group>"; };
+		047AE6C91C7ADB71005B4CC7 /* mybutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mybutton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,7 @@
 			children = (
 				047AE68D1C7ABD4F005B4CC7 /* AppDelegate.h */,
 				047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */,
-				047AE6901C7ABD4F005B4CC7 /* ViewController.h */,
-				047AE6911C7ABD4F005B4CC7 /* ViewController.m */,
+				047AE6C01C7AD84E005B4CC7 /* fristSession */,
 				047AE6931C7ABD4F005B4CC7 /* Main.storyboard */,
 				047AE6961C7ABD4F005B4CC7 /* Assets.xcassets */,
 				047AE6981C7ABD4F005B4CC7 /* LaunchScreen.storyboard */,
@@ -138,6 +140,17 @@
 				047AE6B11C7ABD4F005B4CC7 /* Info.plist */,
 			);
 			path = iosUITests;
+			sourceTree = "<group>";
+		};
+		047AE6C01C7AD84E005B4CC7 /* fristSession */ = {
+			isa = PBXGroup;
+			children = (
+				047AE6BD1C7AC695005B4CC7 /* FristViewController.h */,
+				047AE6BE1C7AC695005B4CC7 /* FristViewController.m */,
+				047AE6C81C7ADB71005B4CC7 /* mybutton.h */,
+				047AE6C91C7ADB71005B4CC7 /* mybutton.m */,
+			);
+			name = fristSession;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047AE6921C7ABD4F005B4CC7 /* ViewController.m in Sources */,
 				047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */,
 				047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */,
+				047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */,
+				047AE6CA1C7ADB71005B4CC7 /* mybutton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
