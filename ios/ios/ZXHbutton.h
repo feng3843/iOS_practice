@@ -1,14 +1,13 @@
 //
-//  mybutton.m
+//  ZXHbutton.h
 //  ios
 //
 //  Created by ivy.sun on 16/2/22.
 //  Copyright © 2016年 zxh. All rights reserved.
 //
 
-#import "mybutton.h"
+#import <UIKit/UIKit.h>
 
-@implementation mybutton
-
+@interface ZXHbutton : UIButton
 
 @end

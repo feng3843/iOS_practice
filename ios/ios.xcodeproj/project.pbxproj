@@ -15,7 +15,9 @@
 		047AE6A51C7ABD4F005B4CC7 /* iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6A41C7ABD4F005B4CC7 /* iosTests.m */; };
 		047AE6B01C7ABD4F005B4CC7 /* iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6AF1C7ABD4F005B4CC7 /* iosUITests.m */; };
 		047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6BE1C7AC695005B4CC7 /* FristViewController.m */; };
-		047AE6CA1C7ADB71005B4CC7 /* mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6C91C7ADB71005B4CC7 /* mybutton.m */; };
+		047AE6CD1C7B076F005B4CC7 /* ZXHbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6CC1C7B076F005B4CC7 /* ZXHbutton.m */; };
+		047AE6D61C7D841E005B4CC7 /* ZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */; };
+		047AE6D91C7D8E37005B4CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6D81C7D8E37005B4CC7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,12 @@
 		047AE6B11C7ABD4F005B4CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047AE6BD1C7AC695005B4CC7 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
 		047AE6BE1C7AC695005B4CC7 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
-		047AE6C81C7ADB71005B4CC7 /* mybutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mybutton.h; sourceTree = "<group>"; };
-		047AE6C91C7ADB71005B4CC7 /* mybutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mybutton.m; sourceTree = "<group>"; };
+		047AE6CB1C7B076F005B4CC7 /* ZXHbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHbutton.h; sourceTree = "<group>"; };
+		047AE6CC1C7B076F005B4CC7 /* ZXHbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHbutton.m; sourceTree = "<group>"; };
+		047AE6D41C7D841E005B4CC7 /* ZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCollectionViewCell.h; sourceTree = "<group>"; };
+		047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCollectionViewCell.m; sourceTree = "<group>"; };
+		047AE6D71C7D8E37005B4CC7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047AE6D81C7D8E37005B4CC7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +153,12 @@
 			children = (
 				047AE6BD1C7AC695005B4CC7 /* FristViewController.h */,
 				047AE6BE1C7AC695005B4CC7 /* FristViewController.m */,
-				047AE6C81C7ADB71005B4CC7 /* mybutton.h */,
-				047AE6C91C7ADB71005B4CC7 /* mybutton.m */,
+				047AE6CB1C7B076F005B4CC7 /* ZXHbutton.h */,
+				047AE6CC1C7B076F005B4CC7 /* ZXHbutton.m */,
+				047AE6D41C7D841E005B4CC7 /* ZCollectionViewCell.h */,
+				047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */,
+				047AE6D71C7D8E37005B4CC7 /* ViewController.h */,
+				047AE6D81C7D8E37005B4CC7 /* ViewController.m */,
 			);
 			name = fristSession;
 			sourceTree = "<group>";
@@ -283,10 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047AE6D91C7D8E37005B4CC7 /* ViewController.m in Sources */,
 				047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */,
+				047AE6D61C7D841E005B4CC7 /* ZCollectionViewCell.m in Sources */,
 				047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */,
 				047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */,
-				047AE6CA1C7ADB71005B4CC7 /* mybutton.m in Sources */,
+				047AE6CD1C7B076F005B4CC7 /* ZXHbutton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +522,7 @@
 				047AE6B61C7ABD4F005B4CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047AE6B71C7ABD4F005B4CC7 /* Build configuration list for PBXNativeTarget "iosTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +531,7 @@
 				047AE6B91C7ABD4F005B4CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047AE6BA1C7ABD4F005B4CC7 /* Build configuration list for PBXNativeTarget "iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +540,7 @@
 				047AE6BC1C7ABD4F005B4CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
