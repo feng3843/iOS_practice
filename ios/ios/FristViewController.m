@@ -9,6 +9,7 @@
 #import "FristViewController.h"
 #import "ZXHbutton.h"
 #import "ViewController.h"
+#import "HXtableViewController1.h"
 
 @interface FristViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *dictLabel;
@@ -18,6 +19,7 @@
 @property (weak, nonatomic) UIButton *btn3;
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
 - (IBAction)jump:(id)sender;
+- (IBAction)GOtoHXtableView:(id)sender;
 
 
 
@@ -133,6 +135,16 @@
     myvc.filmImages = @[@1,@1,@3];
    
     [self.navigationController pushViewController:myvc animated:YES];
+    
+}
+
+- (IBAction)GOtoHXtableView:(id)sender {
+    
+    HXtableViewController1 *vc = [[HXtableViewController1 alloc]init];
+//    
+//    vc.dataArry = [NSMutableArray arrayWithArray:@[@"111",@"333",@"bcd"]];
+    
+    [self.navigationController pushViewController:vc animated:YES];
     
 }
 @end
