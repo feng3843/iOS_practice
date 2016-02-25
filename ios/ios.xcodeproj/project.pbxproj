@@ -116,13 +116,16 @@
 		047AE6891C7ABD4F005B4CC7 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				047AE68D1C7ABD4F005B4CC7 /* AppDelegate.h */,
-				047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */,
-				047AE6C01C7AD84E005B4CC7 /* fristSession */,
+				047AE6E81C7EC0E9005B4CC7 /* 自定义BUTTON */,
+				047AE6E71C7EC0C1005B4CC7 /* 自定义Collectionview */,
+				047AE6E61C7EC08C005B4CC7 /* 自定义横向tableView */,
+				047AE6C01C7AD84E005B4CC7 /* fristSession（首页） */,
 				047AE6931C7ABD4F005B4CC7 /* Main.storyboard */,
 				047AE6961C7ABD4F005B4CC7 /* Assets.xcassets */,
 				047AE6981C7ABD4F005B4CC7 /* LaunchScreen.storyboard */,
 				047AE69B1C7ABD4F005B4CC7 /* Info.plist */,
+				047AE68D1C7ABD4F005B4CC7 /* AppDelegate.h */,
+				047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */,
 				047AE68A1C7ABD4F005B4CC7 /* Supporting Files */,
 			);
 			path = ios;
@@ -154,23 +157,44 @@
 			path = iosUITests;
 			sourceTree = "<group>";
 		};
-		047AE6C01C7AD84E005B4CC7 /* fristSession */ = {
+		047AE6C01C7AD84E005B4CC7 /* fristSession（首页） */ = {
 			isa = PBXGroup;
 			children = (
 				047AE6BD1C7AC695005B4CC7 /* FristViewController.h */,
 				047AE6BE1C7AC695005B4CC7 /* FristViewController.m */,
-				047AE6CB1C7B076F005B4CC7 /* ZXHbutton.h */,
-				047AE6CC1C7B076F005B4CC7 /* ZXHbutton.m */,
-				047AE6D41C7D841E005B4CC7 /* ZCollectionViewCell.h */,
-				047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */,
-				047AE6D71C7D8E37005B4CC7 /* ViewController.h */,
-				047AE6D81C7D8E37005B4CC7 /* ViewController.m */,
+			);
+			name = "fristSession（首页）";
+			sourceTree = "<group>";
+		};
+		047AE6E61C7EC08C005B4CC7 /* 自定义横向tableView */ = {
+			isa = PBXGroup;
+			children = (
 				047AE6E01C7EA003005B4CC7 /* HXTableViewCell.h */,
 				047AE6E11C7EA003005B4CC7 /* HXTableViewCell.m */,
 				047AE6E31C7EA833005B4CC7 /* HXtableViewController1.h */,
 				047AE6E41C7EA833005B4CC7 /* HXtableViewController1.m */,
 			);
-			name = fristSession;
+			name = "自定义横向tableView";
+			sourceTree = "<group>";
+		};
+		047AE6E71C7EC0C1005B4CC7 /* 自定义Collectionview */ = {
+			isa = PBXGroup;
+			children = (
+				047AE6D71C7D8E37005B4CC7 /* ViewController.h */,
+				047AE6D81C7D8E37005B4CC7 /* ViewController.m */,
+				047AE6D41C7D841E005B4CC7 /* ZCollectionViewCell.h */,
+				047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */,
+			);
+			name = "自定义Collectionview";
+			sourceTree = "<group>";
+		};
+		047AE6E81C7EC0E9005B4CC7 /* 自定义BUTTON */ = {
+			isa = PBXGroup;
+			children = (
+				047AE6CB1C7B076F005B4CC7 /* ZXHbutton.h */,
+				047AE6CC1C7B076F005B4CC7 /* ZXHbutton.m */,
+			);
+			name = "自定义BUTTON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
