@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
 @end
 
@@ -31,6 +31,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
 //    layout.itemSize = CGSizeMake(30, 30);
 //    layout.minimumInteritemSpacing = 0;
@@ -80,15 +81,18 @@ static NSString * const reuseIdentifier = @"Cell";
     UICollectionViewCell *cell ;
     cell= [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
         
-//    UIImageView *imgV =[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
-//    imgV.backgroundColor = [UIColor redColor];
-//    [imgV setImage:[UIImage imageNamed:@"m_3_100"]];
-//    [cell.contentView addSubview:imgV];
+    UIImageView *imgV =[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
+    imgV.backgroundColor = [UIColor redColor];
+    [imgV setImage:[UIImage imageNamed:@"m_3_100"]];
+    [cell.contentView addSubview:imgV];
     cell.backgroundColor = [UIColor grayColor];
     // Configure the cell
     
     return cell;
 }
 
-
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(80, 80);
+}
 @end

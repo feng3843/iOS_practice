@@ -124,12 +124,25 @@
                                     <action selector="GOtoHXtableView:" destination="Rsy-PC-Or8" eventType="touchUpInside" id="a5q-bX-F9d"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-Jb-yAv">
+                                <rect key="frame" x="32" y="378" width="173" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4BA-Km-Czx"/>
+                                    <constraint firstAttribute="width" constant="173" id="leS-2U-yrL"/>
+                                </constraints>
+                                <state key="normal" title="横向排布collectionview"/>
+                                <connections>
+                                    <action selector="gotoHXcollectionview:" destination="Rsy-PC-Or8" eventType="touchUpInside" id="pxl-q0-5fo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.87058823529999996" green="0.34901960780000002" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="LXG-Io-87M" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" constant="12" id="1gF-dM-rEn"/>
+                            <constraint firstItem="M9f-Jb-yAv" firstAttribute="top" secondItem="LXG-Io-87M" secondAttribute="bottom" constant="8" id="2rW-Rh-mR0"/>
                             <constraint firstItem="oPn-ls-7zY" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" constant="12" id="3dS-4I-pzk"/>
                             <constraint firstItem="oPn-ls-7zY" firstAttribute="top" secondItem="6nQ-1u-4vE" secondAttribute="bottom" constant="19" id="4g7-f9-Nmn"/>
+                            <constraint firstItem="M9f-Jb-yAv" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" constant="12" id="79X-wb-O1v"/>
                             <constraint firstItem="IoT-wg-Xil" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" constant="212" id="8FQ-W2-QIZ"/>
                             <constraint firstItem="ifI-FZ-ftT" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" id="AA3-2h-efi"/>
                             <constraint firstItem="hhW-5N-teD" firstAttribute="leading" secondItem="We4-78-mPn" secondAttribute="leadingMargin" id="BwB-Lj-QyT"/>

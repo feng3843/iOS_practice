@@ -10,6 +10,7 @@
 #import "ZXHbutton.h"
 #import "ViewController.h"
 #import "HXtableViewController1.h"
+#import "HXcollectionviewController.h"
 
 @interface FristViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *dictLabel;
@@ -20,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
 - (IBAction)jump:(id)sender;
 - (IBAction)GOtoHXtableView:(id)sender;
+- (IBAction)gotoHXcollectionview:(id)sender;
 
 
 
@@ -132,7 +134,7 @@
     
     
     ViewController *myvc = [[ViewController alloc]init];
-    myvc.filmImages = @[@1,@1,@3];
+    myvc.filmImages = @[@1,@1,@3,@4,@3];
    
     [self.navigationController pushViewController:myvc animated:YES];
     
@@ -146,5 +148,13 @@
     
     [self.navigationController pushViewController:vc animated:YES];
     
+}
+
+- (IBAction)gotoHXcollectionview:(id)sender {
+    
+    HXcollectionviewController *vc = [[HXcollectionviewController alloc]init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 @end

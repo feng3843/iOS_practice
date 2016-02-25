@@ -20,6 +20,8 @@
 		047AE6D91C7D8E37005B4CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6D81C7D8E37005B4CC7 /* ViewController.m */; };
 		047AE6E21C7EA003005B4CC7 /* HXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6E11C7EA003005B4CC7 /* HXTableViewCell.m */; };
 		047AE6E51C7EA833005B4CC7 /* HXtableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6E41C7EA833005B4CC7 /* HXtableViewController1.m */; };
+		047AE6EB1C7ECF74005B4CC7 /* HXcollectionviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6EA1C7ECF74005B4CC7 /* HXcollectionviewController.m */; };
+		047AE6EE1C7EDB78005B4CC7 /* Hxflowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6ED1C7EDB78005B4CC7 /* Hxflowlayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		047AE6E11C7EA003005B4CC7 /* HXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTableViewCell.m; sourceTree = "<group>"; };
 		047AE6E31C7EA833005B4CC7 /* HXtableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXtableViewController1.h; sourceTree = "<group>"; };
 		047AE6E41C7EA833005B4CC7 /* HXtableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXtableViewController1.m; sourceTree = "<group>"; };
+		047AE6E91C7ECF74005B4CC7 /* HXcollectionviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXcollectionviewController.h; sourceTree = "<group>"; };
+		047AE6EA1C7ECF74005B4CC7 /* HXcollectionviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXcollectionviewController.m; sourceTree = "<group>"; };
+		047AE6EC1C7EDB78005B4CC7 /* Hxflowlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hxflowlayout.h; sourceTree = "<group>"; };
+		047AE6ED1C7EDB78005B4CC7 /* Hxflowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hxflowlayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,10 @@
 				047AE6D81C7D8E37005B4CC7 /* ViewController.m */,
 				047AE6D41C7D841E005B4CC7 /* ZCollectionViewCell.h */,
 				047AE6D51C7D841E005B4CC7 /* ZCollectionViewCell.m */,
+				047AE6E91C7ECF74005B4CC7 /* HXcollectionviewController.h */,
+				047AE6EA1C7ECF74005B4CC7 /* HXcollectionviewController.m */,
+				047AE6EC1C7EDB78005B4CC7 /* Hxflowlayout.h */,
+				047AE6ED1C7EDB78005B4CC7 /* Hxflowlayout.m */,
 			);
 			name = "自定义Collectionview";
 			sourceTree = "<group>";
@@ -330,8 +340,10 @@
 				047AE6D91C7D8E37005B4CC7 /* ViewController.m in Sources */,
 				047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */,
 				047AE6E51C7EA833005B4CC7 /* HXtableViewController1.m in Sources */,
+				047AE6EE1C7EDB78005B4CC7 /* Hxflowlayout.m in Sources */,
 				047AE6D61C7D841E005B4CC7 /* ZCollectionViewCell.m in Sources */,
 				047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */,
+				047AE6EB1C7ECF74005B4CC7 /* HXcollectionviewController.m in Sources */,
 				047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */,
 				047AE6CD1C7B076F005B4CC7 /* ZXHbutton.m in Sources */,
 				047AE6E21C7EA003005B4CC7 /* HXTableViewCell.m in Sources */,

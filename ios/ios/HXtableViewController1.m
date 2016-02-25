@@ -29,16 +29,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor grayColor];
-    
-    
+
+ 
     
     CGFloat w = [UIScreen mainScreen].bounds.size.width;
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0,300, w )];
-    NSLog(@"tableView创建时Frame： %@",NSStringFromCGRect(self.tableView.frame));
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0,300,w)];
+//    NSLog(@"tableView创建时Frame： %@",NSStringFromCGRect(self.tableView.frame));
+    self.tableView.center = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
     self.tableView.transform = CGAffineTransformMakeRotation(M_PI/2*3);
-    NSLog(@"tableView翻转后Frame： %@",NSStringFromCGRect(self.tableView.frame));
-    
+//    NSLog(@"tableView翻转后Frame： %@",NSStringFromCGRect(self.tableView.frame));
+//    for (UIView *subview in self.tableView.subviews) {
+//        NSLog(@"tableView-子控件%@--Frame： %@",subview, NSStringFromCGRect(subview.frame));
+//    }
     
     
     self.tableView.tableFooterView = [[UIView alloc]init];
@@ -57,6 +59,7 @@
 {
     [super viewWillAppear:animated];
     self.tabBarController.tabBar.hidden  = YES;
+    
 }
 -(void)viewWillDisappear:(BOOL)animated
 {
@@ -83,12 +86,17 @@
     NSString *labeltext = self.dataArry[indexPath.row];
     HXTableViewCell *cell = [HXTableViewCell CreatCellWithTableView:tableView];
     cell.lab.text = labeltext;
+    cell.backgroundColor = [UIColor whiteColor];
+    if (indexPath.row %2 ==0) {
+        cell.backgroundColor=[UIColor redColor];
+    }
     return cell;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [UIScreen mainScreen].bounds.size.width;
+//    return [UIScreen mainScreen].bounds.size.width;
+    return 50;
 }
 
 
