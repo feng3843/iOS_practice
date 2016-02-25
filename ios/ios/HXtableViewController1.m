@@ -34,17 +34,18 @@
     
     CGFloat w = [UIScreen mainScreen].bounds.size.width;
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0,300,w)];
-//    NSLog(@"tableView创建时Frame： %@",NSStringFromCGRect(self.tableView.frame));
-    self.tableView.center = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
-    self.tableView.transform = CGAffineTransformMakeRotation(M_PI/2*3);
+    
+    self.tableView.center= CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
+    //tableview默认上边距64，下边距48
+    self.tableView.contentInset = UIEdgeInsetsMake(-64, 0, -48, 0);
+    self.tableView.transform = CGAffineTransformMakeRotation(M_PI_2*3);
 //    NSLog(@"tableView翻转后Frame： %@",NSStringFromCGRect(self.tableView.frame));
 //    for (UIView *subview in self.tableView.subviews) {
 //        NSLog(@"tableView-子控件%@--Frame： %@",subview, NSStringFromCGRect(subview.frame));
 //    }
     
     
-    self.tableView.tableFooterView = [[UIView alloc]init];
-//    [self.tableView setSeparatorInset:UIEdgeInsetsZero]; 
+//    self.tableView.tableFooterView = [[UIView alloc]init];
     self.tableView.bounces = NO;
     self.tableView.backgroundColor = [UIColor grayColor];
     self.tableView.pagingEnabled = YES;
@@ -60,6 +61,12 @@
     [super viewWillAppear:animated];
     self.tabBarController.tabBar.hidden  = YES;
     
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSLog(@"%@",self.tableView);
 }
 -(void)viewWillDisappear:(BOOL)animated
 {
@@ -83,11 +90,11 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *labeltext = self.dataArry[indexPath.row];
+//    NSString *labeltext = self.dataArry[indexPath.row];
     HXTableViewCell *cell = [HXTableViewCell CreatCellWithTableView:tableView];
-    cell.lab.text = labeltext;
+    cell.imgV.image = [UIImage imageNamed:@"m_3_100"];
     cell.backgroundColor = [UIColor whiteColor];
-    if (indexPath.row %2 ==0) {
+    if (indexPath.row % 2 ==0) {
         cell.backgroundColor=[UIColor redColor];
     }
     return cell;
@@ -95,8 +102,8 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    return [UIScreen mainScreen].bounds.size.width;
-    return 50;
+    return [UIScreen mainScreen].bounds.size.width;
+//    return 50;
 }
 
 

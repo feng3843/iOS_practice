@@ -24,11 +24,10 @@
 {
     self =  [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     CGFloat w = [UIScreen mainScreen].bounds.size.width;
-    CGFloat h = [UIScreen mainScreen].bounds.size.height;
 
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, h, w)];
-    [self.contentView addSubview:label];
-    self.lab = label;
+    UIImageView    *imgv = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, w, w)];
+    [self.contentView addSubview:imgv];
+    self.imgV   = imgv;
     self.transform = CGAffineTransformMakeRotation(M_PI/2);
     return  self;
     

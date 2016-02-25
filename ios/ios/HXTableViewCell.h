@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HXTableViewCell : UITableViewCell
-@property (nonatomic,strong) UILabel  *lab;
+@property (nonatomic,strong) UIImageView   *imgV;
 +(instancetype)CreatCellWithTableView:(UITableView *)tableView;
 @end
