@@ -23,9 +23,8 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self =  [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    CGFloat w = [UIScreen mainScreen].bounds.size.width;
 
-    UIImageView    *imgv = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, w, w)];
+    UIImageView    *imgv = [[UIImageView alloc]initWithFrame:CGRectMake(85, 52, 200 , 200)];
     [self.contentView addSubview:imgv];
     self.imgV   = imgv;
     self.transform = CGAffineTransformMakeRotation(M_PI/2);
