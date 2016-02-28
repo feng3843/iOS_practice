@@ -23,6 +23,8 @@
 		047AE6EB1C7ECF74005B4CC7 /* HXcollectionviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6EA1C7ECF74005B4CC7 /* HXcollectionviewController.m */; };
 		047AE6EE1C7EDB78005B4CC7 /* Hxflowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE6ED1C7EDB78005B4CC7 /* Hxflowlayout.m */; };
 		0485F8501C82876000BFB14C /* mybutton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485F84F1C82876000BFB14C /* mybutton2.m */; };
+		0485F8571C829FDD00BFB14C /* mytextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485F8561C829FDD00BFB14C /* mytextfield.m */; };
+		0485F85A1C82A11800BFB14C /* textfieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485F8591C82A11800BFB14C /* textfieldViewController.m */; };
 		048BC7D41C81522B00AB9D28 /* thridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7D31C81522B00AB9D28 /* thridViewController.m */; };
 		048BC7D71C8156D200AB9D28 /* buttonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7D61C8156D200AB9D28 /* buttonViewController.m */; };
 		048BC7DB1C815B9B00AB9D28 /* mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7DA1C815B9B00AB9D28 /* mybutton.m */; };
@@ -81,6 +83,10 @@
 		047AE6ED1C7EDB78005B4CC7 /* Hxflowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hxflowlayout.m; sourceTree = "<group>"; };
 		0485F84E1C82876000BFB14C /* mybutton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mybutton2.h; sourceTree = "<group>"; };
 		0485F84F1C82876000BFB14C /* mybutton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mybutton2.m; sourceTree = "<group>"; };
+		0485F8551C829FDD00BFB14C /* mytextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mytextfield.h; sourceTree = "<group>"; };
+		0485F8561C829FDD00BFB14C /* mytextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mytextfield.m; sourceTree = "<group>"; };
+		0485F8581C82A11800BFB14C /* textfieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textfieldViewController.h; sourceTree = "<group>"; };
+		0485F8591C82A11800BFB14C /* textfieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textfieldViewController.m; sourceTree = "<group>"; };
 		048BC7D21C81522B00AB9D28 /* thridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thridViewController.h; sourceTree = "<group>"; };
 		048BC7D31C81522B00AB9D28 /* thridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thridViewController.m; sourceTree = "<group>"; };
 		048BC7D51C8156D200AB9D28 /* buttonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buttonViewController.h; sourceTree = "<group>"; };
@@ -149,7 +155,6 @@
 			children = (
 				048BC7D11C8151FE00AB9D28 /* UI控件 */,
 				049E41AD1C7FF9D400341B58 /* secondSession网页请求 */,
-				047AE6E81C7EC0E9005B4CC7 /* 自定义BUTTON */,
 				047AE6E71C7EC0C1005B4CC7 /* 自定义Collectionview */,
 				047AE6E61C7EC08C005B4CC7 /* 自定义横向tableView */,
 				047AE6C01C7AD84E005B4CC7 /* fristSession（首页） */,
@@ -234,14 +239,24 @@
 			name = "自定义BUTTON";
 			sourceTree = "<group>";
 		};
+		0485F8511C829EBF00BFB14C /* 自定义textfield */ = {
+			isa = PBXGroup;
+			children = (
+				0485F8551C829FDD00BFB14C /* mytextfield.h */,
+				0485F8561C829FDD00BFB14C /* mytextfield.m */,
+				0485F8581C82A11800BFB14C /* textfieldViewController.h */,
+				0485F8591C82A11800BFB14C /* textfieldViewController.m */,
+			);
+			name = "自定义textfield";
+			sourceTree = "<group>";
+		};
 		048BC7D11C8151FE00AB9D28 /* UI控件 */ = {
 			isa = PBXGroup;
 			children = (
+				0485F8511C829EBF00BFB14C /* 自定义textfield */,
 				048BC7D81C815B3700AB9D28 /* 自定义button */,
 				048BC7D21C81522B00AB9D28 /* thridViewController.h */,
 				048BC7D31C81522B00AB9D28 /* thridViewController.m */,
-				048BC7D51C8156D200AB9D28 /* buttonViewController.h */,
-				048BC7D61C8156D200AB9D28 /* buttonViewController.m */,
 			);
 			name = "UI控件";
 			sourceTree = "<group>";
@@ -249,10 +264,13 @@
 		048BC7D81C815B3700AB9D28 /* 自定义button */ = {
 			isa = PBXGroup;
 			children = (
+				047AE6E81C7EC0E9005B4CC7 /* 自定义BUTTON */,
 				048BC7D91C815B9B00AB9D28 /* mybutton.h */,
 				048BC7DA1C815B9B00AB9D28 /* mybutton.m */,
 				0485F84E1C82876000BFB14C /* mybutton2.h */,
 				0485F84F1C82876000BFB14C /* mybutton2.m */,
+				048BC7D51C8156D200AB9D28 /* buttonViewController.h */,
+				048BC7D61C8156D200AB9D28 /* buttonViewController.m */,
 			);
 			name = "自定义button";
 			sourceTree = "<group>";
@@ -481,6 +499,7 @@
 				048BC7DB1C815B9B00AB9D28 /* mybutton.m in Sources */,
 				047AE6EE1C7EDB78005B4CC7 /* Hxflowlayout.m in Sources */,
 				047AE6D61C7D841E005B4CC7 /* ZCollectionViewCell.m in Sources */,
+				0485F85A1C82A11800BFB14C /* textfieldViewController.m in Sources */,
 				048BC7D41C81522B00AB9D28 /* thridViewController.m in Sources */,
 				047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */,
 				048BC7D71C8156D200AB9D28 /* buttonViewController.m in Sources */,
@@ -488,6 +507,7 @@
 				047AE6EB1C7ECF74005B4CC7 /* HXcollectionviewController.m in Sources */,
 				047AE6BF1C7AC695005B4CC7 /* FristViewController.m in Sources */,
 				049E41B01C7FFA2500341B58 /* SecondViewController.m in Sources */,
+				0485F8571C829FDD00BFB14C /* mytextfield.m in Sources */,
 				047AE6CD1C7B076F005B4CC7 /* ZXHbutton.m in Sources */,
 				047AE6E21C7EA003005B4CC7 /* HXTableViewCell.m in Sources */,
 			);
