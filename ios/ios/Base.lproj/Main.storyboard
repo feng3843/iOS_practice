@@ -399,10 +399,10 @@
             </objects>
             <point key="canvasLocation" x="475" y="817"/>
         </scene>
-        <!--View Controller-->
+        <!--Weibo View Controller-->
         <scene sceneID="CPp-kN-5HY">
             <objects>
-                <viewController id="XeN-aU-KEZ" sceneMemberID="viewController">
+                <viewController id="XeN-aU-KEZ" customClass="weiboViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VhY-IL-VoP"/>
                         <viewControllerLayoutGuide type="bottom" id="3Cq-7A-qiN"/>
