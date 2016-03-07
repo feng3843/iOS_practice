@@ -410,6 +410,22 @@
                     <view key="view" contentMode="scaleToFill" id="Fwa-Mh-nVw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouJ-72-CAE">
+                                <rect key="frame" x="50" y="221" width="65" height="30"/>
+                                <state key="normal" title="QQ登陆"/>
+                                <connections>
+                                    <action selector="QQLOGIN:" destination="XeN-aU-KEZ" eventType="touchUpInside" id="tu7-Jv-E5A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bc9-SN-mn5">
+                                <rect key="frame" x="50" y="294" width="65" height="30"/>
+                                <state key="normal" title="sina登陆"/>
+                                <connections>
+                                    <action selector="sinaLOGIN:" destination="XeN-aU-KEZ" eventType="touchUpInside" id="hik-Xy-D8I"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.49622916431501407" green="0.81313131313131315" blue="0.37505139901576556" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2ZQ-7C-je3"/>
@@ -493,6 +509,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSj-Vx-XIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-337" y="1525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MhZ-fz-VB6">
+            <objects>
+                <viewController id="Jfw-0L-YJC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="me2-SX-1BR"/>
+                        <viewControllerLayoutGuide type="bottom" id="DNz-6j-2Zr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gkZ-mr-qYx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2aL-ci-LZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>

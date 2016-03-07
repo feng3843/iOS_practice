@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04137B5C1C8D1FB60032869E /* aotolayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04137B5B1C8D1FB60032869E /* aotolayoutTableViewCell.m */; };
 		047AE68C1C7ABD4F005B4CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE68B1C7ABD4F005B4CC7 /* main.m */; };
 		047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AE68E1C7ABD4F005B4CC7 /* AppDelegate.m */; };
 		047AE6951C7ABD4F005B4CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AE6931C7ABD4F005B4CC7 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		048BC7D41C81522B00AB9D28 /* thridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7D31C81522B00AB9D28 /* thridViewController.m */; };
 		048BC7D71C8156D200AB9D28 /* buttonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7D61C8156D200AB9D28 /* buttonViewController.m */; };
 		048BC7DB1C815B9B00AB9D28 /* mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BC7DA1C815B9B00AB9D28 /* mybutton.m */; };
+		049474231C8D271D00694911 /* SDAutoLayout in Resources */ = {isa = PBXBuildFile; fileRef = 049474221C8D271D00694911 /* SDAutoLayout */; };
 		049E41B01C7FFA2500341B58 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E41AF1C7FFA2500341B58 /* SecondViewController.m */; };
 		049E41B71C8015B300341B58 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E41B61C8015B300341B58 /* NSString+URL.m */; };
 		F7E2813254B529108653ACE9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A089C9187554BEC7061B43C /* libPods.a */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04137B5A1C8D1FB60032869E /* aotolayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aotolayoutTableViewCell.h; sourceTree = "<group>"; };
+		04137B5B1C8D1FB60032869E /* aotolayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aotolayoutTableViewCell.m; sourceTree = "<group>"; };
 		047AE6871C7ABD4F005B4CC7 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AE68B1C7ABD4F005B4CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047AE68D1C7ABD4F005B4CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		048BC7D61C8156D200AB9D28 /* buttonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buttonViewController.m; sourceTree = "<group>"; };
 		048BC7D91C815B9B00AB9D28 /* mybutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mybutton.h; sourceTree = "<group>"; };
 		048BC7DA1C815B9B00AB9D28 /* mybutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mybutton.m; sourceTree = "<group>"; };
+		049474221C8D271D00694911 /* SDAutoLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDAutoLayout; sourceTree = "<group>"; };
 		049E41AE1C7FFA2500341B58 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		049E41AF1C7FFA2500341B58 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		049E41B51C8015B300341B58 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
@@ -131,6 +136,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04137B591C8D1F6A0032869E /* aotolayout练习 */ = {
+			isa = PBXGroup;
+			children = (
+				04137B5A1C8D1FB60032869E /* aotolayoutTableViewCell.h */,
+				04137B5B1C8D1FB60032869E /* aotolayoutTableViewCell.m */,
+			);
+			name = "aotolayout练习";
+			sourceTree = "<group>";
+		};
+		04137B5F1C8D20C60032869E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				049474221C8D271D00694911 /* SDAutoLayout */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		047AE67E1C7ABD4F005B4CC7 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +178,8 @@
 		047AE6891C7ABD4F005B4CC7 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				04137B5F1C8D20C60032869E /* lib */,
+				04137B591C8D1F6A0032869E /* aotolayout练习 */,
 				0485F85B1C833B8800BFB14C /* 个人中心 */,
 				048BC7D11C8151FE00AB9D28 /* UI控件 */,
 				049E41AD1C7FF9D400341B58 /* secondSession网页请求 */,
@@ -433,6 +457,7 @@
 			files = (
 				047AE69A1C7ABD4F005B4CC7 /* LaunchScreen.storyboard in Resources */,
 				047AE6971C7ABD4F005B4CC7 /* Assets.xcassets in Resources */,
+				049474231C8D271D00694911 /* SDAutoLayout in Resources */,
 				047AE6951C7ABD4F005B4CC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04137B5C1C8D1FB60032869E /* aotolayoutTableViewCell.m in Sources */,
 				049E41B71C8015B300341B58 /* NSString+URL.m in Sources */,
 				047AE6D91C7D8E37005B4CC7 /* ViewController.m in Sources */,
 				047AE68F1C7ABD4F005B4CC7 /* AppDelegate.m in Sources */,
